@@ -94,12 +94,24 @@ h1,h2,h3,h4{
   .services, .about-us, .what-we-do{
     height: 40vh;
   }
+  #icons{
+    width: 50%;
+    margin: auto;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
   
   
 }
 @media only screen and (min-width:630px)and (max-width:767px) {
   .what-we-do{
      height: 100vh;
+  }
+  .portfolio div{
+    margin: auto;
+    width:50%;
   }
   
   

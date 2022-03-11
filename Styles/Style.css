@@ -4,3 +4,103 @@
   box-sizing: border-box;
   
 }
+
+h1,h2,h3,h4{
+  text-transform: uppercase;
+  text-align: center;
+}
+.page1{
+  background-image: url("../Assets/h_img.jpg");
+  background-repeat: no-repeat;
+  
+}
+.cont{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  
+}
+.service{
+  width: 80%;
+
+}
+
+.work{
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  /* width: 22vw; */
+}
+.info{
+  display: none;
+}
+.what-we-do h4{
+  text-transform: uppercase;
+}
+
+.ul{
+  list-style: none;
+}
+.textarea{
+  resize: none;
+}
+.services{
+  background-image: url("../Assets/s_image.jpg");
+}
+.what-we-do{
+  height: 100vh;
+}
+.logos, .info{
+  height: 30vh;
+  text-align: center;
+  cursor: pointer;
+}
+.works{
+  display: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  width: 200px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  padding: 48px;
+  border: solid white 3px;
+  
+}
+.works h4{
+  font-weight: 900;
+}
+#click1:hover, #click2:hover, #click3:hover{
+  color: rgba(0,0,0,0.8);
+}
+.contacts{
+  background-image: url("../Assets/c_image.jpg");
+}
+.form input, .textarea{
+  background-color: rgba(1,1,1,0);
+  border: solid white 1px;
+  width: 45%;
+  margin: auto;
+}
+
+
+@media screen and (min-width:650px){
+  .page1{
+    height: 90vh;
+  }
+  .services, .about-us, .what-we-do{
+    height: 40vh;
+  }
+  
+  
+}
+@media only screen and (min-width:630px)and (max-width:767px) {
+  .what-we-do{
+     height: 100vh;
+  }
+  
+  
+}

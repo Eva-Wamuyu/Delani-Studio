@@ -26,7 +26,6 @@ let whatWeDoLogoClasses = ["logo1","logo2","logo3"];
 const toggling = (a, b)=>{
   $("#"+a+"").toggle();
   $("."+b+"").toggle();
-
 }
 $("#"+clickIds[0]+"").click(function(){
   toggling(whatWeDoContentId[0],whatWeDoLogoClasses[0]);
@@ -40,3 +39,25 @@ $("#"+clickIds[2]+"").click(function(){
   toggling(whatWeDoContentId[2],whatWeDoLogoClasses[2]);
 })
   
+//the hover feature on the portfolio page
+
+let workIds = ["work1","work2","work3","work4","work5","work6","work7","work8"];
+
+const functionOnInHover = (a)=>{
+  $("#"+ a+"").slideDown();
+  $("#"+ a+"").show();
+}
+const functionOnOutHover = (a)=>{
+  $("#"+a+"").hide([200]);
+}      
+const display = (a,b)=>{
+  $("."+a+"").hover(function(){
+    functionOnInHover(b)},function(){
+      functionOnOutHover(b)});
+
+}
+//assigning each class to the hover function
+for(var x=0; x<8; x++)
+{
+  display(portfolioClasses[x],workIds[x]);
+}

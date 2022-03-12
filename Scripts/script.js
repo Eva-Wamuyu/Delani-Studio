@@ -57,7 +57,45 @@ const display = (a,b)=>{
 
 }
 //assigning each class to the hover function
-for(var x=0; x<8; x++)
+for(var x=0; x<portfolioClasses.length; x++)
 {
   display(portfolioClasses[x],workIds[x]);
 }
+
+
+
+//form validation and form behaviour
+let form = document.getElementById("form");
+
+form.addEventListener("submit",(e)=>{
+  e.preventDefault();
+
+  if($("#name").val().length < 2){
+
+    $("#alert").show();
+  }
+  else if($("#mail").val().length == 0){
+    $("#alert2").show();
+  }
+  else if ($("#msg").val().length < 8){
+    $("#alert3").show();
+
+  }
+  else{
+    $(".formSuccess").toggle();
+    $(".formdiv").toggle();
+    $("p.successMessage").text(`Thank You ${$("#name").val()}.
+    We have received your message.`);
+
+  }
+
+});
+//the closing success button
+$("#close").click(function(){
+  document.getElementById("form").reset();
+  $(".formSuccess").hide();
+  $(".formdiv").show();
+
+
+});
+

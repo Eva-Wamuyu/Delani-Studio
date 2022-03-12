@@ -242,17 +242,43 @@
   <div class="container-fluid contacts">
     <div class="contact text-white">
       <h2>Contact us</h2>
-      <form action="" class="form">
-        <div class="form-group m-auto w-75">
-          <input type="text" class="" name="name" id="name" placeholder="Name...">
-          <input type="email"  class="ms-4" name="mail" id="mail" placeholder="Email...">
-        </div>
+      <div class="formdiv">
+        <form action="" class="form" id="form">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-sm-12 col-md-6">
+                <input type="text" class="" name="name" id="name" placeholder="Name...">
+                <p id="alert"class="text-danger">
+                * Name required. Should be atleast 2 characters.
+                </p>
+              </div>
+             <div class="col-sm-12 col-md-6">
+              <input type="email"  class="ms-4" name="mail" id="mail" placeholder="Email...">
+               <p id="alert2" class="text-danger">
+                Email required. Add a valid email.
+               </p>
+             </div>
+            </div>
+          </div>
+          
         <textarea class="textarea d-block w-75 mx-auto mb-5 mt-3" name="message" id="msg" cols="30" rows="10" placeholder="Your message here ..."></textarea>
-
-        <button type=""></button>
+        <p id="alert3" class="text-danger text-center">
+          Please add a message* <br>
+          Message should be atleast 8 characters.
+        </p>
+        <button type="submit" class="btn formButton">Send</button>
       </form>
     </div>
-  </div>
+    </div>
+    </div>
+
+    <div class="formSuccess w-75 bg-light border m-auto text-center mb-5">
+      <p class="successMessage h-50 p-5">
+            hhh
+      </p>
+      <button type="button" id="close" class="btn m-auto"> Close </button>
+    </div>
+  
 
   <div class="container mt-5">
     <footer>

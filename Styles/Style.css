@@ -86,18 +86,32 @@ h1,h2,h3,h4{
 }
 .contacts{
   background-image: url("../Assets/c_image.jpg");
+  display: relative;
 }
 .form input, .textarea{
   background-color: rgba(1,1,1,0);
   border: solid white 1px;
-  width: 45%;
   margin: auto;
+  color: white;
+  font-size: 24px;
+  
 }
 ::placeholder{
   color: white;
 }
-
-
+.formButton{
+  position: relative;
+  left: 70vw;
+  bottom: 24px;
+}
+#alert, #alert2, #alert3{
+  display: none;
+}
+.formSuccess{
+  height: 50vh;
+  display: none;
+  
+}
 @media screen and (min-width:650px){
   .page1{
     height: 100vh;

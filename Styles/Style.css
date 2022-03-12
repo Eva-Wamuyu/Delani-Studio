@@ -1,17 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,700&family=Poppins:wght@300&display=swap');
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   
 }
+html{
+  scroll-behavior: smooth;
+  font-family: "poppins", sans-serif;
+}
 
 h1,h2,h3,h4{
   text-transform: uppercase;
   text-align: center;
+  
 }
 .page1{
   background-image: url("../Assets/h_img.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   
 }
 .cont{
@@ -85,11 +93,14 @@ h1,h2,h3,h4{
   width: 45%;
   margin: auto;
 }
+::placeholder{
+  color: white;
+}
 
 
 @media screen and (min-width:650px){
   .page1{
-    height: 90vh;
+    height: 100vh;
   }
   .services, .about-us, .what-we-do{
     height: 40vh;

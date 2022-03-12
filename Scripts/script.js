@@ -16,7 +16,7 @@ const addBackgrounds = ()=>{
   }
   
 }
-// addBackgrounds();
+addBackgrounds();
 //End of addition of backgrounds
 // Toggling waht we do icons
 let clickIds = ["click1","click2","click3"];

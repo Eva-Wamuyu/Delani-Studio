@@ -101,7 +101,7 @@ h1,h2,h3,h4{
 }
 .formButton{
   position: relative;
-  left: 70vw;
+  left: 240px;
   bottom: 24px;
 }
 #alert, #alert2, #alert3{

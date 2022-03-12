@@ -112,6 +112,30 @@ h1,h2,h3,h4{
   display: none;
   
 }
+.one{
+  background-image: url("../Assets/work1.jpg");
+}
+.two{
+  background-image: url("../Assets/work2.jpg");
+}
+.three{
+  background-image: url("../Assets/work3.jpg");
+}
+.four{
+  background-image: url("../Assets/work4.jpg");
+}
+.five{
+  background-image: url("../Assets/work5.jpg");
+}
+.six{
+  background-image: url("../Assets/work6.jpg");
+}
+.seven{
+  background-image: url("../Assets/work7.jpg");
+}
+.eight{
+  background-image: url("../Assets/work8.jpg");
+}
 @media screen and (min-width:650px){
   .page1{
     height: 100vh;

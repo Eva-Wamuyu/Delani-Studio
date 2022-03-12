@@ -1,5 +1,6 @@
 # Delani Studio
- (./Assets/Screenshot from 2022-03-12 13-44-55.png)
+
+![Project Cover](./Assets/Cover.png)
 ### By Eva Wamuyu
 
 ## Table of Content

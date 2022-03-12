@@ -95,6 +95,9 @@ $("#close").click(function(){
   document.getElementById("form").reset();
   $(".formSuccess").hide();
   $(".formdiv").show();
+  $("#alert").hide();
+  $("#alert2").hide();
+  $("#alert3").hide();
 
 
 });

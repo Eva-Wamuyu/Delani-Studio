@@ -27,7 +27,10 @@ https://eva-wamuyu.github.io/Delani-Studio/
 
 ## Installation
 
-One can clone the repository.
+* One can clone the repository to have it in their local storage.
+git clone https://github.com/Eva-Wamuyu/Delani-Studio
+
+* Or One can fork the repository and have it in their remote storage.
 
 ## Technologies
 

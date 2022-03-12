@@ -35,15 +35,15 @@ git clone https://github.com/Eva-Wamuyu/Delani-Studio
 
 ## Technologies
 
-Javascript
-Bootstrap
-CSS
-HTML
+* Javascript
+* Bootstrap
+* CSS
+* HTML
 
 ## Dependencies
 
-Google fonts
-JQuery Library
+* Google fonts
+* JQuery Library
 
 ## Bugs
 

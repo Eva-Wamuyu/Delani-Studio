@@ -11,10 +11,10 @@ let portfolioClasses = ["one","two","three","four","five","six","seven","eight"]
 const addBackgrounds = ()=>{
   for(var count=0; count<portfolioBackgrounds.length; count++){
   
-    $("."+ portfolioClasses[count]+"").css("background-image","url(.../Assets/"+portfolioBackgrounds[count]);
+    $("."+ portfolioClasses[count]+"").css("background-image","url(./Assets/"+portfolioBackgrounds[count]);
   
   }
-
+  
 }
 // addBackgrounds();
 //End of addition of backgrounds
